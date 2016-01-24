@@ -27,6 +27,10 @@
   </head>
 
   <body id="page-top" class="index">
+    <% if settings.environment == :production %>
+      <%= erb :google_analytics %>
+    <% end %>
+
     <%= erb :nav %>
     <%= erb :header %>
     <%= erb :portfolio %>
