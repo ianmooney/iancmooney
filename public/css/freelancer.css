@@ -204,7 +204,7 @@ section.success a.active {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin-bottom: 15px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -255,7 +255,7 @@ section.success a.active {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin-bottom: 30px;
     }
 }
 

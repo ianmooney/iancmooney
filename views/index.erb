@@ -47,6 +47,26 @@
 
     <!-- Portfolio Modals -->
     <%= erb :portfolio_modal, locals: {
+        company_name: 'Thinkific',
+        logo_path: 'img/thinkific-logo.jpeg',
+        job_title: 'Principal Engineer',
+        date: 'Dec 2016 – Present',
+        company_url: 'https://thinkific.com',
+        description: 'Thinkific is a powerful online course creation platform that allows anyone to easily and fully customize the look and functionality of their online course business.',
+        technologies: 'Rails, React, Ember, AWS, GraphQL, Sidekiq, payments with Stripe and PayPal'
+    } %>
+
+    <%= erb :portfolio_modal, locals: {
+        company_name: 'Tylt',
+        logo_path: 'img/tylt-logo.png',
+        job_title: 'Co-Founder and CTO',
+        date: 'Aug 2018 – Present',
+        company_url: 'https://tylt.app',
+        description: 'Tylt (Think You\'ll Like This) is an app that allows you to keep track of recommendations we get from friends every day, such as movies, TV shows, books, podcasts or restaurants. It is available on iOS, Android and on the web.<br /><br />This is a side project of mine that allows me to try out different technologies and maintain an app on multiple platforms.',
+        technologies: 'Rails API, GraphQL, React, Flutter, Material UI, Firebase'
+    } %>
+
+    <%= erb :portfolio_modal, locals: {
         company_name: 'Sticky9',
         logo_path: 'img/sticky9-logo.png',
         job_title: 'Development Manager',
